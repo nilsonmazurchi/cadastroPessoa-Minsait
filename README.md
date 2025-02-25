@@ -29,39 +29,39 @@ Antes de rodar a aplicação, certifique-se de ter as seguintes ferramentas inst
 
 1. Clone este repositório para a sua máquina local:
 
-   ```bash
-   git clone https://github.com/usuario/nome-do-repositorio.git
-   ```
+  ```bash
+  git clone https://github.com/usuario/nome-do-repositorio.git
+  ```
 
 2. Navegue até o diretório do projeto:
 
   ```bash
-   cd nome-do-repositorio
-   ```
+  cd nome-do-repositorio
+  ```
 
 3. Instale as dependências do projeto:
 
   ```bash
-   npm install
-   ```
+  npm install
+  ```
 
 4. Navegue até o diretório do projeto(back)-pasta Server e inicialize o backend:
 
   ```bash
-   node server.js
-   ```
+  node server.js
+  ```
 
 5. Volte até o diretório do projeto:
 
   ```bash
-   ng s
-   ```
+  ng s
+  ```
 
 6. Acesse a aplicação em:
 
   ```bash
-   http://localhost:4200
-   ```
+  http://localhost:4200
+  ```
 
 ## 🎮 Funcionalidades Principais
 Frontend (Angular):
