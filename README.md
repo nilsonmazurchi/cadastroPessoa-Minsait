@@ -1,27 +1,60 @@
-# CadastroPessoas
+# Nome da Aplicação
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+**Descrição**: A aplicação de cadastro de pessoas permite que os usuários cadastrem, editem e visualizem informações sobre pessoas, incluindo dados como nome, CEP, endereço, bairro, cidade e UF. A aplicação é construída com Angular e segue boas práticas de validação de formulários e uso de componentes reutilizáveis.
 
-## Development server
+## Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Frontend**: Angular 16
+- **Backend**: (Descreva o backend, se houver)
+- **Bibliotecas**: RxJS, Angular Forms, etc.
+- **Outras ferramentas**: (Outros pacotes ou ferramentas que você utilizou, como Bootstrap, etc.)
 
-## Code scaffolding
+## Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Cadastro de Pessoas (nome, CEP, endereço, bairro, cidade, UF)
+- Validação de formulário (nome não pode conter números, campo CEP no formato XXXXXXXX)
+- Edição de cadastro
+- Exibição de lista de pessoas em formato de tabela
+- Mensagens de erro e sucesso em tempo real
 
-## Build
+## Como Rodar a Aplicação
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Pré-requisitos
 
-## Running unit tests
+Antes de rodar a aplicação, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- [Node.js](https://nodejs.org) (Versão 14 ou superior)
+- [Angular CLI](https://angular.io/cli)
 
-## Running end-to-end tests
+### Passos para Executar
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone este repositório para a sua máquina local:
 
-## Further help
+   ```bash
+   git clone https://github.com/usuario/nome-do-repositorio.git
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. Navegue até o diretório do projeto:
+
+  ```bash
+   cd nome-do-repositorio
+   ```
+
+3. Instale as dependências do projeto:
+
+  ```bash
+   npm install
+   ```
+
+4. Navegue até o diretório do projeto(back)-pasta Server:
+
+  ```bash
+   cd nome-do-repositorio com pasta Server
+   ```
+
+5. Instale as dependências do projeto(back):
+
+  ```bash
+   node install express
+   npm install cors body-parser dotenv
+   ```
