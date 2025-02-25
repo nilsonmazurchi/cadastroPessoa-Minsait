@@ -30,7 +30,7 @@ Antes de rodar a aplicação, certifique-se de ter as seguintes ferramentas inst
 1. Clone este repositório para a sua máquina local:
 
   ```bash
-  git clone https://github.com/usuario/nome-do-repositorio.git
+  git clone https://github.com/nilsonmazurchi/cadastroPessoa-Minsait.git
   ```
 
 2. Navegue até o diretório do projeto:
