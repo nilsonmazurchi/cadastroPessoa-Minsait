@@ -2,6 +2,9 @@
 
 **Descrição**: A aplicação de cadastro de pessoas permite que os usuários cadastrem, editem e visualizem informações sobre pessoas, incluindo dados como nome, CEP, endereço, bairro, cidade e UF. A aplicação é construída com Angular e segue boas práticas de validação de formulários e uso de componentes reutilizáveis.
 
+## ![alt text](image.png) Apresentação do Projeto
+- (https://youtu.be/bdY6pXIwhUw) 
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **Frontend**: Angular 16
@@ -30,7 +33,7 @@ Antes de rodar a aplicação, certifique-se de ter as seguintes ferramentas inst
 1. Clone este repositório para a sua máquina local:
 
   ```bash
-  git clone https://github.com/nilsonmazurchi/cadastroPessoa-Minsait.git
+  git clone https://github.com/nilsonmazurchi/cadastroPessoa-Minsait-Backend-Node-.git
   ```
 
 2. Navegue até o diretório do projeto:
@@ -73,8 +76,19 @@ Frontend (Angular):
 - Melhorias de UX: Como impedir a duplicação de CEP e fornecer feedback instantâneo para o usuário com as mensagens de validação.
 
 Backend (Node.js/Express):
-- cadastro.json: Arquivo JSON onde as informações das pessoas cadastradas são armazenadas. Ele é lido e escrito sempre que uma pessoa é cadastrada, listada, atualizada ou removida.
+- **API RESTful**: Implementada com Express para receber e processar requisições do frontend.
+- **Banco de Dados**: Utiliza um arquivo JSON.
+- **Endpoints CRUD**:
+  - `POST /pessoas` - Cadastrar pessoa
+  - `GET /pessoas` - Listar todas as pessoas
+  - `GET /pessoas/{id}` - Buscar pessoa pelo ID
+  - `PUT /pessoas/{id}` - Atualizar pessoa
+  - `DELETE /pessoas/{id}` - Remover pessoa
+- **Camadas organizadas**:
+  - Routes: Define os endpoints da API.
+  - cadastro.json: Arquivo JSON onde as informações das pessoas cadastradas são armazenadas. Ele é lido e escrito sempre que uma pessoa é cadastrada, listada, atualizada ou removida.
 - server.js: O arquivo principal do servidor Express, onde todas as rotas (POST, GET, PUT, DELETE) são definidas para manipular as pessoas cadastradas. Este arquivo é responsável por configurar o servidor, o roteamento e a lógica de manipulação do arquivo JSON.
+- **Validações no Backend**: Uso de express-validator para garantir que os dados sejam válidos antes de serem salvos.
 
 ## 📄 Licença  
 **MIT License** - Consulte o arquivo [LICENSE](LICENSE) para detalhes.  
